@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0TI946M5Tvs=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Khylle\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
