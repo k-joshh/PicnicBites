@@ -1,23 +1,38 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+<div class="site-container">
+    <header class="navbar">
+        <div class="logo">
+            <img class="logo-icon" src="images/logo-circle.png" alt="Picnic Bites logo" />
+            <span class="logo-text">Picnic Bites</span>
+        </div>
+        <nav class="nav-links">
+            <NavLink href="" Match="NavLinkMatch.All">Home</NavLink>
+            <NavLink href="recipes">Recipes</NavLink>
+        </nav>
+    </header>
+
+    <div class="pattern-bar"></div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
+        @Body
     </main>
-</div>
 
-<div id="blazor-error-ui" data-nosnippet>
-    An unhandled error has occurred.
-    <a href="." class="reload">Reload</a>
-    <span class="dismiss">🗙</span>
+    <footer class="site-footer">
+        <div class="footer-row">
+            <p>© 2026 Picnic Bites. Spread the summer afternoon.</p>
+
+            <div class="social-links" aria-label="Social media links">
+                <a href="#" aria-label="Instagram">
+                    <img src="images/icon-instagram.png" alt="Instagram" />
+                </a>
+                <a href="#" aria-label="Pinterest">
+                    <img src="images/icon-pinterest.png" alt="Pinterest" />
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="images/icon-youtube.png" alt="YouTube" />
+                </a>
+            </div>
+        </div>
+    </footer>
 </div>

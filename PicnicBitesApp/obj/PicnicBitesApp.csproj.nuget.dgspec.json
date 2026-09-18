@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {}
+    "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {
+    "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
+        "projectUniqueName": "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
         "projectName": "PicnicBitesApp",
-        "projectPath": "c:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
+        "projectPath": "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
         "packagesPath": "C:\\Users\\Khylle\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\obj\\",
+        "outputPath": "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
