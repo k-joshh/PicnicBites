@@ -83,5 +83,8 @@ c:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\D
 c:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\PicnicBitesApp.sourcelink.json
 C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
 C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\Recipes.razor.rz.scp.css
-C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-4su35fy75c-4su35fy75c.gz
-C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-4su35fy75c-4su35fy75c.gz
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\HoneyFriedChicken.razor.rz.scp.css
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\QuicheValerie.razor.rz.scp.css
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\TurkeyPicnicSandwich.razor.rz.scp.css
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
