@@ -1,0 +1,6 @@
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net8.0\PicnicBitesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net8.0\PicnicBitesApp.AssemblyInfoInputs.cache
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net8.0\PicnicBitesApp.AssemblyInfo.cs
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net8.0\PicnicBitesApp.csproj.CoreCompileInputs.cache
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net8.0\PicnicBitesApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net8.0\PicnicBitesApp.sourcelink.json

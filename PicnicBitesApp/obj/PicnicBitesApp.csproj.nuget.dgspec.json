@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {}
+    "C:\\Users\\L23Y16W31\\Documents\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {
+    "C:\\Users\\L23Y16W31\\Documents\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
+        "projectUniqueName": "C:\\Users\\L23Y16W31\\Documents\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
         "projectName": "PicnicBitesApp",
-        "projectPath": "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
-        "packagesPath": "C:\\Users\\Khylle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khylle\\Documents\\BSCS\\3rd Year\\CSIT321\\PicnicBites\\PicnicBitesApp\\obj\\",
+        "projectPath": "C:\\Users\\L23Y16W31\\Documents\\PicnicBites\\PicnicBitesApp\\PicnicBitesApp.csproj",
+        "packagesPath": "C:\\Users\\L23Y16W31\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L23Y16W31\\Documents\\PicnicBites\\PicnicBitesApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Khylle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\L23Y16W31\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\L23Y16W31\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
