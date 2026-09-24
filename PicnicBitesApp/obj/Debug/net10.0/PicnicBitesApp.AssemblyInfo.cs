@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PicnicBitesApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b99c424ca1cc0f1d02bfc5676fc502af6a1293b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dadda13716f4a8907b2858e26752eda6a6639c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PicnicBitesApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PicnicBitesApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
