@@ -178,5 +178,6 @@ C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\ref\Pi
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\package-lock.json
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\package.json
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\f5n0o9oi0r-{0}-khy4lop6wu-khy4lop6wu.gz
-C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-tjkzdljwu1-tjkzdljwu1.gz
-C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-tjkzdljwu1-tjkzdljwu1.gz
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
+C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-1y6w4tqy0c-1y6w4tqy0c.gz

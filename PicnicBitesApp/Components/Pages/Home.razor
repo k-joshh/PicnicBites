@@ -2,83 +2,87 @@
 
 <PageTitle>Home</PageTitle>
 
-<div class="home-page">
-    <section class="hero">
-        <div class="hero-copy">
-            <h1>Sunshine on a plate</h1>
+<div class="max-w-[1200px] mx-auto px-6 sm:px-3 py-11 sm:py-6 text-[#2b211d]">
+    
+    <section class="grid grid-cols-1 lg:grid-cols-[1.06fr_1.1fr] items-center gap-9 py-4 lg:text-left text-center">
+        <div class="lg:pl-1 px-0">
+            <h1 class="m-0 text-[2.6rem] sm:text-5xl lg:text-[clamp(3rem,3.85vw,5rem)] leading-[0.95] tracking-[-0.06em] font-extrabold text-[#1f1b1a]">
+                Sunshine on a plate
+            </h1>
 
-            <p>
+            <p class="max-w-[34rem] mx-auto lg:mx-0 my-6 text-lg sm:text-base leading-[1.55] text-[#3d2d27]">
                 Easy, mess-free, and delightfully appetizing mini-recipes crafted
                 specifically for your picnic basket. Roll out the blanket, open a jar of
                 homemade joy, and let the summer afternoon linger.
             </p>
 
-            <a class="primary-btn" href="recipes">Explore Picnic Recipes</a>
+            <a class="inline-flex items-center justify-center rounded-full font-bold transition-transform duration-200 hover:-translate-y-0.5 no-underline bg-gradient-to-b from-[#d55c3d] to-[#c9472e] text-[#fffaf6] text-base px-[1.4rem] py-[0.9rem] shadow-[0_10px_20px_rgba(196,72,45,0.18)]" 
+               href="recipes">
+                Explore Picnic Recipes
+            </a>
         </div>
 
-        <div class="hero-visual">
-            <img src="images/hero-photo.png" alt="Picnic spread on a gingham blanket" />
+        <div class="w-full flex justify-center">
+            <img class="w-full max-w-[660px] aspect-[1.38] object-cover rounded-[1.25rem] shadow-[0_20px_28px_rgba(90,61,51,0.12)] border-[8px] border-[#f4efe8] block" 
+                 src="images/hero-photo.png" alt="Picnic spread on a gingham blanket" />
         </div>
     </section>
 
-    <div class="scallop-divider" aria-hidden="true"></div>
+    <div class="relative h-4 my-8 sm:my-6 overflow-hidden aria-hidden:true
+                before:content-[''] before:absolute before:inset-0 before:translate-y-[7px] before:opacity-90
+                before:bg-[repeating-radial-gradient(circle_at_0_0,transparent_0,transparent_9px,#e6a190_9px,#e6a190_17px,transparent_17px,transparent_26px)]">
+    </div>
 
-    <section class="recipes-section">
-        <div class="section-heading">
-            <h2>Today's Picnic Spread</h2>
-            <a class="secondary-btn" href="recipes">View All Recipes</a>
+    <section class="bg-[#f3ece2] rounded-t-[1.5rem] px-8 sm:px-4 pt-10 pb-5">
+        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 mb-2">
+            <h2 class="m-0 text-[2.2rem] sm:text-4xl lg:text-[clamp(2.2rem,2.8vw,3.2rem)] tracking-[-0.06em] font-extrabold text-[#1d1817] leading-none">
+                Today's Picnic Spread
+            </h2>
+            <a class="inline-flex items-center justify-center rounded-full font-bold transition-transform duration-200 hover:-translate-y-0.5 no-underline bg-[#2b2725] text-white px-[1.4rem] py-[0.8rem] text-[0.95rem]" 
+               href="recipes">
+                View All Recipes
+            </a>
         </div>
 
-        <p class="section-subtitle">
+        <p class="max-w-[38rem] mt-3 mb-7 text-[#53443d] text-[1.05rem] leading-[1.5]">
             Perfectly portioned packable bites that hold up beautifully in your hamper.
             Simple to prepare, incredibly delicious to share.
         </p>
 
-        <div class="recipe-grid">
-            <article class="recipe-card">
-                <img src="images/honey-fried-chicken.jpg" alt="Honey fried chicken" />
-                <div class="card-body">
-                    <div class="meta">Prep: 20 mins</div>
-                    <h3>Honey Fried Chicken</h3>
-                    <p>
-                        A sweet, savory picnic centerpiece featuring crispy golden-brown 
-                        fried chicken coated in a warm honey-butter glaze.
-                    </p>
-                    <a class="card-button" href="recipes/honey-fried-chicken">
-                        Get Recipe <span aria-hidden="true">→</span>
-                    </a>
-                </div>
-            </article>
-
-            <article class="recipe-card">
-                <img src="images/quiche-valerie.jpg" alt="Quiche Valerie" />
-                <div class="card-body">
-                    <div class="meta">Prep: 25 mins</div>
-                    <h3>Quiche Valerie</h3>
-                    <p>
-                        An elegant French-style baked custard tart loaded with melted Gruyère, 
-                        tender sautéed leeks, and smoky bacon inside a buttery, flaky crust.
-                    </p>
-                    <a class="card-button" href="recipes/quiche-valerie">
-                        Get Recipe <span aria-hidden="true">→</span>
-                    </a>
-                </div>
-            </article>
-
-            <article class="recipe-card">
-                <img src="images/turkey-picnic-sandwich.jpg" alt="Turkey picnic sandwich" />
-                <div class="card-body">
-                    <div class="meta">Prep: 20 mins</div>
-                    <h3>Turkey Picnic Sandwich</h3>
-                    <p>
-                        A sturdy, artisan-style pressed sub layered with lean roasted turkey, 
-                        creamy provolone, mashed lemon avocado, and crisp greens.
-                    </p>
-                    <a class="card-button" href="recipes/turkey-picnic-sandwich">
-                        Get Recipe <span aria-hidden="true">→</span>
-                    </a>
-                </div>
-            </article>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            @foreach (var recipe in GetFeaturedRecipes())
+            {
+                <article class="bg-white/20 border border-[#523d32]/10 rounded-[1.2rem] overflow-hidden shadow-[0_18px_28px_rgba(87,65,46,0.08)]">
+                    <img class="w-full h-[240px] object-cover block" src="@recipe.ImageUrl" alt="@recipe.Title" />
+                    <div class="p-4 pb-5">
+                        <div class="inline-flex items-center gap-[0.4rem] text-[#6a4b3a] text-[0.8rem] font-bold mb-3 
+                                    before:content-[''] before:w-[1.1] before:h-[1.1] before:w-[0.45rem] before:h-[0.45rem] before:rounded-full before:bg-[#d57d5a]">
+                            Prep: @recipe.PrepTime
+                        </div>
+                        <h3 class="m-0 mb-3 text-[1.6rem] lg:text-[clamp(1.6rem,1.8vw,2.2rem)] leading-[1.1] tracking-[-0.05em] text-[#1f1d1c] font-bold">
+                            @recipe.Title
+                        </h3>
+                        <p class="m-0 mb-4 text-[#54443d] text-base leading-[1.45]">
+                            @recipe.Description
+                        </p>
+                        <a class="w-full inline-flex items-center justify-center rounded-full font-bold transition-transform duration-200 hover:-translate-y-0.5 no-underline border border-[#2d201c]/40 text-[#2d201c] px-4 py-[0.8rem] text-[0.95rem]" 
+                           href="@recipe.Url">
+                            Get Recipe <span class="ml-auto text-2xl leading-none" aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                </article>
+            }
         </div>
     </section>
 </div>
+
+@code {
+    private record Recipe(string Title, string PrepTime, string Description, string ImageUrl, string Url);
+    private List<Recipe> GetFeaturedRecipes() => new()
+    {
+        new("Honey Fried Chicken", "20 mins", "A sweet, savory picnic centerpiece featuring crispy golden-brown fried chicken coated in a warm honey-butter glaze.", "images/honey-fried-chicken.jpg", "recipes/honey-fried-chicken"),
+        new("Quiche Valerie", "25 mins", "An elegant French-style baked custard tart loaded with melted Gruyère, tender sautéed leeks, and smoky bacon inside a buttery, flaky crust.", "images/quiche-valerie.jpg", "recipes/quiche-valerie"),
+        new("Turkey Picnic Sandwich", "20 mins", "A sturdy, artisan-style pressed sub layered with lean roasted turkey, creamy provolone, mashed lemon avocado, and crisp greens.", "images/turkey-picnic-sandwich.jpg", "recipes/turkey-picnic-sandwich")
+    };
+}
