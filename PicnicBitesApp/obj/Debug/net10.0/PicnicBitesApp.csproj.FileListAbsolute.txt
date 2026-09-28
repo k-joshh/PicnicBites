@@ -81,13 +81,10 @@ c:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\D
 c:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\PicnicBitesApp.genruntimeconfig.cache
 c:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\ref\PicnicBitesApp.dll
 c:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\PicnicBitesApp.sourcelink.json
-C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
 C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\Recipes.razor.rz.scp.css
 C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\HoneyFriedChicken.razor.rz.scp.css
 C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\QuicheValerie.razor.rz.scp.css
 C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\TurkeyPicnicSandwich.razor.rz.scp.css
-C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
-C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\appsettings.json
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\PicnicBitesApp.staticwebassets.runtime.json
@@ -181,3 +178,8 @@ C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compre
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
 C:\Users\L23Y16W31\Documents\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-1y6w4tqy0c-1y6w4tqy0c.gz
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\package-lock.json
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\bin\Debug\net10.0\package.json
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\f5n0o9oi0r-{0}-dms4qv4je1-dms4qv4je1.gz
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\l7ofbqzlcc-{0}-tjkzdljwu1-tjkzdljwu1.gz
+C:\Users\Khylle\Documents\BSCS\3rd Year\CSIT321\PicnicBites\PicnicBitesApp\obj\Debug\net10.0\compressed\t5343mf4f5-{0}-tjkzdljwu1-tjkzdljwu1.gz

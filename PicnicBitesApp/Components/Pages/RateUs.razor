@@ -1,0 +1,166 @@
+@page "/rate"
+
+<PageTitle>Rate Us</PageTitle>
+
+<div class="min-h-screen bg-[#f9f4ee] text-stone-800">
+    <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+        <header class="mb-8">
+            <p class="mb-4 text-xs font-black uppercase tracking-[0.2em] text-emerald-700">Recipe feedback</p>
+            <h1 class="text-5xl font-black tracking-[-0.08em] text-stone-900 sm:text-6xl lg:text-7xl">Tell us what you loved.</h1>
+            <p class="mt-4 max-w-2xl text-lg leading-7 text-stone-600">
+                Share your thoughts on our picnic bites, favorite recipes, and the overall
+                experience of browsing and making them at home.
+            </p>
+        </header>
+
+        <section class="rounded-[32px] border border-stone-200 bg-gradient-to-br from-[#fffaf5] via-[#f7f0e9] to-[#edf4ee] p-6 shadow-[0_18px_40px_rgba(65,51,44,0.06)]" aria-label="Website rating summary">
+            <div class="grid gap-6 lg:grid-cols-[1.1fr_1.9fr] lg:items-center">
+                <div class="rounded-[24px] border border-stone-200/80 bg-white/40 p-5 backdrop-blur-sm">
+                    <span class="block text-6xl font-black tracking-[-0.08em] text-stone-900">4.8</span>
+                    <div class="mt-2 flex items-center gap-1 text-2xl text-amber-400" aria-label="4.8 out of 5 stars">
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span class="text-stone-300">★</span>
+                    </div>
+                    <p class="mt-3 text-sm text-stone-600">Average rating from 1,240 picnic lovers</p>
+                </div>
+
+                <div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                    <div class="rounded-2xl border border-stone-200/80 bg-white/50 p-4 text-center shadow-sm">
+                        <span class="block text-xs font-semibold uppercase tracking-[0.14em] text-stone-500">Flavor</span>
+                        <strong class="mt-2 block text-3xl font-black tracking-[-0.06em] text-stone-900">4.9</strong>
+                    </div>
+                    <div class="rounded-2xl border border-stone-200/80 bg-white/50 p-4 text-center shadow-sm">
+                        <span class="block text-xs font-semibold uppercase tracking-[0.14em] text-stone-500">Easy prep</span>
+                        <strong class="mt-2 block text-3xl font-black tracking-[-0.06em] text-stone-900">4.7</strong>
+                    </div>
+                    <div class="rounded-2xl border border-stone-200/80 bg-white/50 p-4 text-center shadow-sm">
+                        <span class="block text-xs font-semibold uppercase tracking-[0.14em] text-stone-500">Presentation</span>
+                        <strong class="mt-2 block text-3xl font-black tracking-[-0.06em] text-stone-900">4.8</strong>
+                    </div>
+                    <div class="rounded-2xl border border-stone-200/80 bg-white/50 p-4 text-center shadow-sm">
+                        <span class="block text-xs font-semibold uppercase tracking-[0.14em] text-stone-500">Freshness</span>
+                        <strong class="mt-2 block text-3xl font-black tracking-[-0.06em] text-stone-900">4.9</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 flex flex-wrap gap-3" aria-label="Highlights">
+                <span class="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-sm font-bold text-emerald-800">Easy to follow</span>
+                <span class="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1.5 text-sm font-bold text-amber-800">Family-friendly</span>
+                <span class="inline-flex items-center rounded-full border border-rose-200 bg-rose-50 px-3 py-1.5 text-sm font-bold text-rose-800">Perfect for picnics</span>
+            </div>
+        </section>
+
+        <section class="mt-8 grid gap-6 xl:grid-cols-[1.5fr_0.85fr]">
+            <div class="rounded-[28px] border border-stone-200 bg-[#fffaf6] p-6 shadow-[0_18px_32px_rgba(67,52,43,0.04)]">
+                <h2 class="text-3xl font-black tracking-[-0.06em] text-stone-900">Share your feedback</h2>
+
+                <form class="mt-5 space-y-5">
+                    <div class="grid gap-4 md:grid-cols-2">
+                        <div class="space-y-2">
+                            <label for="name" class="block text-sm font-bold text-stone-700">Your name</label>
+                            <input id="name" type="text" placeholder="Enter your name" class="w-full rounded-2xl border border-stone-200 bg-white px-4 py-3 text-stone-800 placeholder:text-stone-400 focus:border-emerald-500 focus:outline-none focus:ring-4 focus:ring-emerald-100" />
+                        </div>
+
+                        <div class="space-y-2">
+                            <label for="recipe" class="block text-sm font-bold text-stone-700">Favorite recipe</label>
+                            <select id="recipe" class="w-full rounded-2xl border border-stone-200 bg-white px-4 py-3 text-stone-800 focus:border-emerald-500 focus:outline-none focus:ring-4 focus:ring-emerald-100">
+                                <option>Honey Fried Chicken</option>
+                                <option>Quiche Valerie</option>
+                                <option>Turkey Picnic Sandwich</option>
+                                <option>General website experience</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-sm font-bold text-stone-700">Website rating</label>
+                        <div class="flex w-fit items-center gap-1 rounded-full border border-stone-200 bg-[#f7f0ea] px-3 py-2" aria-label="Select a rating for the website">
+                            <span class="text-3xl text-amber-400">★</span>
+                            <span class="text-3xl text-amber-400">★</span>
+                            <span class="text-3xl text-amber-400">★</span>
+                            <span class="text-3xl text-amber-400">★</span>
+                            <span class="text-3xl text-stone-300">★</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="comment" class="block text-sm font-bold text-stone-700">Comments</label>
+                        <textarea
+                            id="comment"
+                            rows="6"
+                            placeholder="Tell us what stood out — flavor, presentation, recipe clarity, or picnic inspiration..."
+                            class="w-full rounded-2xl border border-stone-200 bg-white px-4 py-3 text-stone-800 placeholder:text-stone-400 focus:border-emerald-500 focus:outline-none focus:ring-4 focus:ring-emerald-100"></textarea>
+                    </div>
+
+                    <label for="updates" class="flex items-start gap-3 text-sm leading-6 text-stone-600">
+                        <input id="updates" type="checkbox" class="mt-1 h-4 w-4 accent-emerald-600" />
+                        <span>I’d like to hear about new recipe releases and picnic ideas.</span>
+                    </label>
+
+                    <button type="button" class="inline-flex items-center rounded-full bg-gradient-to-r from-[#6d8f72] to-[#496f5d] px-5 py-3 text-sm font-bold text-white shadow-[0_10px_20px_rgba(56,84,62,0.2)] transition hover:brightness-105">Submit feedback</button>
+                </form>
+            </div>
+
+            <aside class="rounded-[28px] border border-stone-200 bg-[#fffaf6] p-5 shadow-[0_18px_32px_rgba(67,52,43,0.04)]" aria-label="Recent recipe comments">
+                <div class="mb-4 flex items-center justify-between gap-3">
+                    <h3 class="text-2xl font-black tracking-[-0.06em] text-stone-900">Recent comments</h3>
+                    <span class="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.14em] text-emerald-700">Live preview</span>
+                </div>
+
+                @foreach (var review in RecentComments)
+                {
+                    <article class="border-t border-stone-200 py-4 first:border-t-0 first:pt-0">
+                        <div class="mb-2 flex items-center justify-between gap-3">
+                            <div>
+                                <strong class="block text-sm font-bold text-stone-900">@review.Name</strong>
+                                <span class="text-xs text-stone-500">@review.Recipe</span>
+                            </div>
+                            <span class="inline-flex min-w-[4.8rem] items-center justify-center rounded-full bg-amber-100 px-2.5 py-1 text-xs font-bold text-amber-800">@review.Rating</span>
+                        </div>
+
+                        <p class="text-sm leading-6 text-stone-600">@review.Comment</p>
+                    </article>
+                }
+            </aside>
+        </section>
+    </div>
+</div>
+
+@code {
+    private static readonly ReviewEntry[] RecentComments =
+    [
+        new()
+        {
+            Name = "Mila S.",
+            Recipe = "Honey Fried Chicken",
+            Rating = "★★★★★",
+            Comment = "The honey glaze was the perfect finishing touch. The step-by-step guidance made it easy to recreate for a weekend picnic."
+        },
+        new()
+        {
+            Name = "Ethan R.",
+            Recipe = "Quiche Valerie",
+            Rating = "★★★★☆",
+            Comment = "Beautiful presentation and a rich flavor balance. I’d love to see a few more savory picnic-friendly recipes like this one."
+        },
+        new()
+        {
+            Name = "Ari L.",
+            Recipe = "Turkey Picnic Sandwich",
+            Rating = "★★★★★",
+            Comment = "This recipe felt elevated but still easy to assemble. It was fresh, filling, and perfect for a breezy outdoor lunch."
+        }
+    ];
+
+    private sealed class ReviewEntry
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Recipe { get; set; } = string.Empty;
+        public string Rating { get; set; } = string.Empty;
+        public string Comment { get; set; } = string.Empty;
+    }
+}
