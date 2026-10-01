@@ -1,0 +1,5 @@
+Project Structure Rating — 8/10 
+    I rated the project structure an 8 out of 10 because it is well-organized and managed. The naming conventions for pages and assets are intuitive, recognizable, and easy to follow. Additionally, the developer maintained clean and proper commit message syntax throughout the version history. The only reason this was not rated higher is that page-specific CSS files were placed directly inside the pages folder rather than being grouped in the wwwroot/css folder and they also pushed into their repository unecessary folders obj and bin/Debug/net10.0.
+
+Front-End Rating — 9/10
+    The applications UI is aesthetically pleasing, the colors chosen fits the apps picnic theme. The buttons are functional and a subtle animation when hovered upon. The pictures chosen for each recipe were well-chosen and clear, appetizing for users looking for actual recipies. However, downside is that the rating page's live feed, where users can add comments and feedback, is not functional nor does its submit button trigger any action. Overall the front-end design is ver pleasing and consistent.
